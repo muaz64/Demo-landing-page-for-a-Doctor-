@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dr. John Doe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#locations">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#treatments">Treatments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a href="#contact" class="btn btn-primary ms-3">Book Appointment</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero bg-light text-center py-5">
+        <div class="container">
+            <h1>Dr. John Doe</h1>
+            <p class="lead">Expert Cardiologist</p>
+            <img src="doctor.jpg" alt="Doctor's Image" class="img-fluid rounded-circle mb-3" width="150">
+            <p class="lead">Your Heart, Our Priority</p>
+            <a href="#contact" class="btn btn-primary">Book Appointment</a>
+            <br><br>
+            <video width="320" height="240" controls class="my-3">
+                <source src="short-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Doctor's Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Doctor's Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">MD in Cardiology</h5>
+                            <p class="card-text">Graduated from XYZ University.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Experience</h5>
+                            <p class="card-text">15+ years of clinical experience in cardiology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Certifications</h5>
+                            <p class="card-text">Certified by the National Board of Cardiology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chamber Locations -->
+    <section id="locations" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Chamber Locations</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>City Clinic</h5>
+                    <p>123 Main St, Cityville</p>
+                    <div id="map1" style="height: 200px;"></div>
+                </div>
+                <div class="col-md-6">
+                    <h5>Town Health Center</h5>
+                    <p>456 Maple Ave, Townville</p>
+                    <div id="map2" style="height: 200px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatments & Facilities -->
+    <section id="treatments" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Treatments & Facilities</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-heartbeat fa-3x"></i>
+                    <h5>Cardiac Surgery</h5>
+                    <p>Expert care in performing heart surgeries.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-stethoscope fa-3x"></i>
+                    <h5>Heart Checkups</h5>
+                    <p>Regular heart checkups and diagnostics.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-clinic-medical fa-3x"></i>
+                    <h5>Emergency Care</h5>
+                    <p>24/7 emergency cardiac care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Details</h5>
+                    <p><i class="fas fa-phone"></i> Call: (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> Email: doctor@domain.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: 123 Main St, Cityville</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Get In Touch</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Box -->
+    <div class="chat-box">
+        <button id="chatToggle" class="btn btn-primary">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div id="chatWindow" class="chat-window d-none">
+            <div class="chat-header">Chat with Us</div>
+            <div class="chat-body">
+                <p>How can we help you?</p>
+                <input type="text" class="form-control" placeholder="Type your message...">
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
