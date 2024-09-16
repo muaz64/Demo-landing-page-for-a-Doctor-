@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(180deg, #87CEEB, #ffffff);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card {
+    border: none;
+    background-color: #f9f9f9;
+}
+
+.card h5 {
+    color: #3498db;
+}
+
+.chat-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-window {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    font-weight: bold;
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+}
+
+.chat-body {
+    margin-top: 10px;
+}
+
+.d-none {
+    display: none;
+}
