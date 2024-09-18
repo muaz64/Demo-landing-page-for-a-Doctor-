@@ -3,7 +3,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(180deg, #87CEEB, #ffffff);
+    background: linear-gradient(180deg, #17ace7, #ffffff);
 }
 
 .navbar-brand {
@@ -27,7 +27,7 @@ body {
 }
 
 .chat-window {
-    background-color: #fff;
+    background-color: #1bcaad;
     border: 1px solid #ddd;
     padding: 10px;
     width: 300px;
